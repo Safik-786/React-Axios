@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.data{
+  margin: 30px auto;
+  border-radius: 10px;
+  background: linear-gradient(#A1FFCE, #FAFFD1);
+  width: 800px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px 0;
+
+}
+.text{
+  /* color: #fff;
+
+  text-shadow: 3px 3px 20px #ff99cc,
+      -2px 1px 30px #ff99cc; */
+      color: white;
+      font-size: 50px;
+
+text-shadow: -1px 1px 0 #41ba45,
+	1px 1px 0 #c63d2b,
+	1px -1px 0 #42afac,
+	-1px -1px 0 #c6c23f;
+}
+
+
+.container {
+  padding: 10px;
+}
+
+h2 {
+  color: white !important;
+  font-size: 50px;
+  padding: 0px;
+  mix-blend-mode: multiply;
+  text-shadow: 5px 4px 11px rgb(0,0,0), 0 2px 5px rgb(0,0,0);
+  text-align: center;
+  margin: 0;
+}
+
+.shadow{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.active{
+  background: linear-gradient(135deg,rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1))!important;
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 5px !important ;
+}
