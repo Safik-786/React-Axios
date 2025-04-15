@@ -15,11 +15,9 @@ function Create() {
             Emp_name: myname,
             Emp_age: age,
             Emp_email: email,
-
         })
             .then((Response) => {
                 navigate('/read')
-
             })
     }
     

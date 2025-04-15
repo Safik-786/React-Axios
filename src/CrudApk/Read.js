@@ -54,8 +54,6 @@ function Read() {
                     <tbody>
                         {
 
-
-
                             apiData.map((items, key) => {
                                 const { id, Emp_name, Emp_age, Emp_email } = items;             // destructure
                                 return (
@@ -79,7 +77,6 @@ function Read() {
                                             }
 
                                             }>
-
                                                 DELETE
                                             </button>
                                         </td>

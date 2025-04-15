@@ -11,7 +11,6 @@ function PostAxios() {
         Axios.post(baseUrl, {
             title: myTitle,
             body: myBody
-
         })
             .then((resp) => {
                 console.log(resp)
